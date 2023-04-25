@@ -1,38 +1,329 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+/* -------------------------------
+Default Styling
+-------------------------------- */
+
+/*コンテンツのサイズをpaddingやborderを含めて、自動で調整*/
+*,
+*::before,
+*,
+*::after {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 内部リンクをクリックした時に該当セクションまでスムーズにスクロールできるようになる。 */
+html {
+    scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    color: #3A4454;
+    font-family: "Helvetica Nene", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2 {
+    font-family: "Piazzolla", "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 
-.App-link {
-  color: #61dafb;
+h2,
+h3 {
+    margin-top: 0;
+    font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*箇条書きの・を消す*/
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+/*行間をデフォルトよりも若干高く*/
+p {
+    line-height: 1.8;
+}
+
+figure {
+    margin: 0;
+}
+
+/*親要素以上に広がらないように*/
+.workA,
+.workB {
+    max-width: 100%;
+}
+
+/*リンクの下線を消す*/
+a {
+    text-decoration: none;
+}
+
+/*hover時のアニメーションが起きるようにする*/
+a,
+input,
+textarea {
+    transition: all 0.15s ease-in-out;
+}
+
+/*送信ボタンに触った時にカーソル変化する*/
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+/*横幅の設定auto で設定可能*/
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.button-primary {
+    display: inline-block;
+    padding: 8px 10px;
+    border-color: rgb(128, 121, 121);
+    border-width: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(94, 94, 94, 0);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+/*ソーシャルリンク*/
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+
+.social-links li+li {
+    margin-left: 20px;
+}
+
+
+/* -------------------------------
+header
+-------------------------------- */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(201, 1, 1, 0.778);
+    color: #FFF7F7;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 80px;
+}
+
+.header-nav-menu {
+    display: flex;
+}
+
+.header-nav-item>a {
+    color: white;
+}
+
+.header-nav-item a:hover {
+    color: rgba(58, 58, 58, 0.2);
+}
+
+
+/* -------------------------------
+Main - Hero
+-------------------------------- */
+
+
+/*---------------------------------
+Main - Works
+----------------------------------*/
+
+.main-works {
+    background-color: #bad6fda3;
+}
+
+.main-works-item:last-child {
+    margin-bottom: 0;
+}
+
+.main-works-item-img.primary img {
+    box-shadow:
+        1px 1px 10px rgba(40, 50, 69, 0.796),
+        10px 10px 0 #3A4454;;
+}
+
+.main-works-item-img.secondary img {
+    box-shadow:
+        1px 1px 10px rgba(49, 41, 72, 0.5),
+        10px 10px 0 #28303d;;
+}
+
+/*---------------------------------
+Main - about
+----------------------------------*/
+
+.main-bout {
+    background-color: #FFF;
+}
+
+.main-about-addition-skills ul {
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.main-about-addition-follow a {
+    color: #C2B2B4;
+}
+
+.main-about-addition-follow a:hover,
+.main-about-addition-follow a:focus {
+    color: #AB9698;
+}
+
+/*---------------------------------
+Footer
+----------------------------------*/
+
+.footer {
+    background-color: #3A4454;
+    color: #FFF7F7
+}
+
+.footer-form,
+.footer-form-input,
+.footer-form-textarea {
+    width: 100%;
+}
+
+.footer-form-input {
+    position: relative;
+}
+
+.footer-form-input i {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    color: #FFF7F7;
+}
+
+.footer-form-input input {
+    padding: 10px 15px 10px 40px;
+}
+
+.footer-form-textarea textarea {
+    height: 150px;
+    padding: 10px 15px;
+    resize: none;
+}
+
+.footer-form-input input,
+.footer-form-textarea textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #C2B2B4;
+    border-radius: 5px;
+    color: #FFF7F7;
+}
+
+.footer-form-input input::placeholder,
+.footer-form-textarea textarea::placeholder {
+    color: #9c9da5;
+}
+
+.footer-form-input input:hover,
+.footer-form-input:focus,
+.footer-form-textarea textarea:hover,
+.footer-form-textarea textarea:focus {
+    background-color: rgba(0, 0, 0 10%);
+}
+
+.footer-form-input input:focus-visible,
+.footer-form-textarea textarea:focus-visible {
+    outline: 1px solid #C2B2B4;
+    border: 1px solid #C2B2B4;
+}
+
+.footer-info-nav-menu ul {
+    font-family: 'EB Garamond', serif;
+}
+
+.footer-info-nav-menu a {
+    color: #FFF7F7;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer-info-nav-menu a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-info-follow a {
+    color: #9C9DA5;
+    font-size: 1.5rem;
+}
+
+.footer-info-follow a:hover,
+.footer-info-follow a:focus {
+    color: #81838D
+}
+
+.footer-info-copy {
+    color: #9C9DA5;
+}
+
+.footer-from h2 {
+    font-size: 30px;
+
+}
+
+.footer-from a {
+    font-size: 20px;
+}
+
+.lab {
+    max-width: 70%;
+
+}
+
+
+/*--- swiper ----*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #f4f1f1;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
 }

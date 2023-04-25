@@ -1,0 +1,139 @@
+@media screen and (min-width: 48em) {
+
+    h1,
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h1 {
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    h2>i {
+        margin-right: 20px;
+    }
+
+    /* ------Reusable Classses-------------*/
+
+    .container {
+        padding: 0 40px;
+    }
+
+    /* ------   header-----------*/
+
+    .header {
+        padding: 0px 40px;
+    }
+
+    .header-logo-img {
+        width: 150px;
+    }
+
+    .header-nav-item {
+        margin-left: 40px;
+    }
+
+    .header-nav-item>a {
+        font-size: 1.2rem;
+    }
+
+
+    /*--- Main hero----*/
+
+    .main-hero-img-photo {
+        width: 225px;
+        margin-bottom: 40px;
+        border-radius: 50%;
+    }
+
+    .main-hero-highlight h1 {
+        font-size: 70px;
+        color: white;
+        padding-top: 90px;
+        margin-bottom: 5px;
+    }
+
+    .main-hero-highlight a {
+        font-size: 25px;
+        color: white;
+    }
+
+    .main-hero-img-photo {
+        border: 9px solid rgb(225, 225, 225);
+    }
+
+
+    /*--- Main Works----*/
+
+
+
+    .main-works-item {
+        display: flex;
+        align-items: center;
+        margin: 0 -30px 50px;
+    }
+
+    .main-works-item:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+    .main-works-item-text,
+    .main-works-item-img {
+        width: 50%;
+        padding: 0 30px;
+    }
+
+
+
+    /*--- Footer ----*/
+
+   
+
+    .footer-container {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .footer-form,
+    .footer-info {
+        width: 50%;
+    }
+
+    .footer-info {
+        align-items: flex-start;
+    }
+
+    .footer-form {
+        margin-bottom: 0;
+    }
+
+    .footer-form-textarea {
+        margin-bottom: 30px;
+    }
+
+    .footer-info-follow {
+        margin-bottom: 140px;
+    }
+
+    .footer-info-copy {
+        margin-bottom: 0;
+    }
+
+
+    /*-- ここから追加編集----*/
+    .main-about-description h2{
+        font-size: 30px;
+        margin: 25px 0 10px 0;
+    }
+
+    .main-about-description p{
+        font-size: 24px;
+    }
+
+}

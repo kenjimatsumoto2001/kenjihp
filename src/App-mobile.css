@@ -1,0 +1,307 @@
+/* -------------------------------
+mobile Styling
+-------------------------------- */
+ 
+h1, h2{
+    font-size: 2rem;
+}
+
+h1 {
+    margin-bottom:25px;
+}
+
+h2 {
+    margin-bottom:40px;
+}
+
+h2 > i {
+    margin-bottom: 20px;
+}
+
+h3 { 
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* -------------------------------
+Reusaeable Classes
+-------------------------------- */
+.container{
+    padding: 0 20px;
+}
+
+.header-logo-img{
+    width: 100px;
+    margin-left: 10px;
+}
+
+.header-logo-title{
+    display: none;
+}
+
+.header-nav-menu{
+    margin-right: 10px;
+}
+
+.header-nav-menu a{
+    font-size: 11px;
+}
+
+.header-nav-item{
+    margin-left: 10px;
+}
+
+/* -------------------------------
+Main - Hero
+-------------------------------- */
+
+.main-hero{
+    padding: 80px 0 0 0;
+}
+
+.main-hero-img-photo {
+    width:200px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    
+}
+
+.main-hero-highlight{
+    background-image: url(./img/home.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.main-hero-highlight h1{
+    font-size: 30px;
+    color: white;
+    padding-top: 150px;
+
+}
+
+.main-hero-highlight a{
+    color: white;
+}
+
+.main-hero-img-photo{
+    margin-top: 20px;
+    border: 9px solid rgb(225, 225, 225);
+}
+
+
+
+
+/* -------------------------------
+Main - Works
+-------------------------------- */
+
+.main-works {
+    padding: 80px 0;
+}
+
+.main-works-item{
+    margin-bottom: 50px;
+}
+
+.main-works-item-img {
+    margin-bottom: 40px;
+}
+
+.main-works-item-text p:last-of-type {
+    margin-bottom:  30px;
+}
+
+.main-works-item-text h3 {
+    margin: 0;
+}
+.square1{
+  width: 80px;
+  height: 10px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.square2{
+  width: 200px;
+  height: 10px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+
+/* -------------------------------
+Main - About
+-------------------------------- */
+
+
+
+.main-about-tablet{
+    padding: 80px 0 0px;
+}
+
+
+
+.main-about-img{
+    text-align: center;
+}
+
+.main-about-description,
+.main-about-addition-skills{
+    margin-bottom: 30px;
+}
+
+.main-about-addition-skills ul,
+.main-about-addition-skills li{
+    margin-bottom: 10px;
+}
+
+/* -------------------------------
+Footer
+-------------------------------- */
+.footer {
+    padding: 60px 0 10px;
+}
+
+.footer-form{
+    margin-bottom: 80px;
+}
+
+.footer-form-input {
+    margin-bottom: 10px;
+}
+
+.footer-form-textarea {
+    margin-bottom:20px;
+}
+
+.footer-info{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-info-nav, .footer0info-follow {
+    margin-bottom: 40px;
+}
+
+.footer-info-nav-menu {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-info-nav-menu ul{
+    display: flex;
+}
+
+.footer-info-nav-menu li {
+    margin-left: 10px;
+}
+
+.footer-info-nav-menu p {
+    font-size: 15px;
+}
+
+.footer-info-nav img {
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    padding:10px 0 20px 0;
+
+}
+
+.main-about-addition{
+    padding: 80px 0 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    height:300px;
+    font-size: 18px;
+    background: #f4f1f1;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+}
+
+.main-about-description {
+    height: 530px;
+    max-height: 530px;
+}
+.main-about-description h1{
+    margin: 10px 0 10px 0;
+}
+
+.main-about-description h2{
+    text-align: left;
+    font-size: 20px;
+    margin: 50px 0 10px 0;
+}
+
+.main-about-description h3{
+    text-align: left;
+    font-size: 20px;
+}
+
+.main-about-description a{
+    text-align: left;
+    font-size: 30px;
+    color: gray;
+}
+
+.square{
+  width: 100px;
+  height: 10px;
+  background: red;
+  margin-bottom: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px; 
+    background-color: rgb(183, 202, 227);
+    border-radius: 50%;/* ←円を作る */
+    margin: 0px 40px 40px 35px;
+}
+
+.intersts-list i1 {
+    font-size: 30px; /* 例としてフォントサイズ24pxを指定 */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 30px
+  }
+
+.intersts-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intersts-list p {
+    font-size: 30px; /* 例としてフォントサイズ24pxを指定 */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-links p {
+    font-size: 20px;
+    color: black;
+}
+
+
+/*------ SKILL BOX------*/
+
+.box {
+    width: 120px;
+    height: 120px; 
+    background-color: rgb(183, 202, 227);
+    margin: 0px 40px 40px 35px;
+}
