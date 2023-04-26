@@ -77,22 +77,22 @@ function App() {
                   <div class="main-about-addition-follow">
                     <ul class="social-links">
                       <li>
-                        <a href="https://instagram.com/luke_m_kenji?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <a href="https://github.com/kenjimatsumoto2001" target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                       </li>
-                      <li>
-                        <a href="https://www.morinaga.co.jp/in/jelly/protein.html" target="_blank">
+                      {/* <li>
+                        <a href="https://twitter.com/mk2_mk262771871" target="_blank">
                           <i class="fab fa-linkedin"></i>
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://instagram.com/luke_m_kenji?igshid=YmMyMTA2M2Y=" target="_blank">
                           <i class="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://instagram.com/luke_m_kenji?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <a href="https://twitter.com/mk2_mk262771871" target="_blank">
                           <i class="fab fa-twitter"></i>
                         </a>
                       </li>
@@ -265,22 +265,22 @@ function App() {
             <div class="footer-info-follow">
               <ul class="social-links">
                 <li>
-                  <a href="https://instagram.com/luke_m_kenji?igshid=YmMyMTA2M2Y=" target="_blank">
+                  <a href="https://github.com/kenjimatsumoto2001" target="_blank">
                     <i class="fab fa-github"></i>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://www.morinaga.co.jp/in/jelly/protein.html" target="_blank">
                     <i class="fab fa-linkedin"></i>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="https://instagram.com/luke_m_kenji?igshid=YmMyMTA2M2Y=" target="_blank">
                     <i class="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="https://instagram.com/luke_m_kenji?igshid=YmMyMTA2M2Y=" target="_blank">
+                  <a href="https://twitter.com/mk2_mk262771871" target="_blank">
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
