@@ -1,5 +1,4 @@
 {
-  "homepage": "https://kenjimatsumoto2001.github.io/matumoto_HP/",
   "name": "kenjihp",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,9 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.3",
-    "gh-pages": "^5.0.0"
   }
 }
