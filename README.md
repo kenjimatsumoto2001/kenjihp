@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### show to upload git hub
 This section has moved here: url [https://www.youtube.com/watch?v=Q9n2mLqXFpU]
+git add .
+git commit -m "Dployed website"
+git push
+npm run deploy
