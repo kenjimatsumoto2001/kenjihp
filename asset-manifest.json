@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kenjihp/static/css/main.1e347604.css",
-    "main.js": "/kenjihp/static/js/main.9d2bf1f1.js",
+    "main.js": "/kenjihp/static/js/main.565ad6d7.js",
     "static/js/787.89065e07.chunk.js": "/kenjihp/static/js/787.89065e07.chunk.js",
     "static/media/face.jpg": "/kenjihp/static/media/face.da2f00ab31a7281e03a2.jpg",
     "static/media/research2.jpg": "/kenjihp/static/media/research2.67b06f71a6a61dee3b51.jpg",
@@ -10,11 +10,11 @@
     "static/media/ritumeilogo .png": "/kenjihp/static/media/ritumeilogo .cea0b1449d6ab77d95ba.png",
     "index.html": "/kenjihp/index.html",
     "main.1e347604.css.map": "/kenjihp/static/css/main.1e347604.css.map",
-    "main.9d2bf1f1.js.map": "/kenjihp/static/js/main.9d2bf1f1.js.map",
+    "main.565ad6d7.js.map": "/kenjihp/static/js/main.565ad6d7.js.map",
     "787.89065e07.chunk.js.map": "/kenjihp/static/js/787.89065e07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e347604.css",
-    "static/js/main.9d2bf1f1.js"
+    "static/js/main.565ad6d7.js"
   ]
 }
