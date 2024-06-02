@@ -47,7 +47,7 @@ function App() {
           <div class="main-hero-highlight">
             <h1><strong>KENJI MATSUMOTO</strong></h1>
 
-            <a>立命館大学 情報理工学部 社会知能研究室 4回生</a>
+            <a>立命館大学 情報理工学部 社会知能研究室 M1</a>
 
             <figure class="main-hero-img">
               <img src={face} alt="profile" class="main-hero-img-photo" />
@@ -101,7 +101,7 @@ function App() {
                   </div>
 
                   <div class="main-about-description-p">
-                    <p>香港出身。 高校から日本に来て勉強しています！ 現在は立命館大学で情報について学んでおり, サービスについて研究にしていきたいと思っています。</p>
+                    <p>香港出身。 香港高校から日本に来て勉強しています。 現在は立命館大学院 情報理工学研究科で複数のWebサービスを使用して新たなサービスを開発する「マッシュアップサービス」について研究しています。</p>
                     <p>また, 今年は基本情報技術者とTOEICを勉強したいと思っているので応援お願いします!</p>
                   </div>
                 </div>
@@ -115,15 +115,15 @@ function App() {
                 <div class="main-about-description">
                   <h1>Education </h1>
                   <div class="square"></div>
-                  <h2> Ritsumeikan University</h2>
+                  <h2> Ritsumeikan University (2024 - Current)</h2>
+                  <h3>@Graduate School of Information Science and Engineering</h3>
+
+                  <h2> Ritsumeikan University (2020 - 2024)</h2>
                   <h3>@Information Science and Engineering</h3>
-                  <a><strong>2020 - Current</strong></a>
 
-                  <h2> Ritsumeikan Keisho High School</h2>
-                  <a><strong>2017 - 2020</strong></a>
+                  <h2> Ritsumeikan Keisho High School (2017 - 2020)</h2>
 
-                  <h2> Hong Kong Japanese Junior High School</h2>
-                  <a><strong>2016 - 2017</strong></a>
+                  <h2> Hong Kong Japanese Junior High School (2016 - 2017)</h2>
 
                 </div>
               </div>
@@ -184,7 +184,8 @@ function App() {
                 <p>既存研究ではk-means法を用いたクラスタリング手法を採用していた. しかし, k-means法は各ノード(点)に1つのカテゴリしか割り当てることができず, 複数のカテゴリに属す可能性があるノードも1つにまとめられてしまう. このことから,各ノードが確立に基づき, 複数のカテゴリに割り当て可能であるソフトクラスタリングを採用し, 検証する.</p>
               </div>
             </div>
-
+            <h2><i class="fa-solid fa-book"></i>学会発表</h2>
+            <h4>・松本賢司，村上陽平．<a href="https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-23-03">サービス連携関係に基づくソフトクラスタリング</a>，電気情報通信学会 総合大会，2024.</h4>
           </div>
         </section>
 
@@ -222,9 +223,6 @@ function App() {
             </ul>
           </div>
         </div>
-
-
-
       </main>
 
       <footer id="contact" class="footer">
@@ -287,7 +285,7 @@ function App() {
               </ul>
             </div>
             <div class="footer-info-copy">
-              <small>© 2022 Elle Kasai. All Rights Reserved.</small>
+              <small>© 2024 KenjiMatsumoto. All Rights Reserved.</small>
             </div>
           </div>
         </div>
