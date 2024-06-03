@@ -170,7 +170,7 @@ function App() {
               <div class="main-works-item-text">
                 <h3>背景</h3>
                 <div class="square1"></div>
-                <p>現在, 多種多様な Web サービスが数多く存在しており, それらを組み合わせて新たな複合サービスを構築する技術が発達している. しかしながら, Web サービスの利用に関する統計より 最大  85. 6 %  の  Web  サービスが複合サービスに利用されていない. したがって, 複合サービスを構築する際に, 多くの Web サービスからサービス合成に用いる Web サービスを適切に発見できるようにしたい. </p>
+                <p>現在、多種多様なWebサービスが数多く存在しており、それらを組み合わせてマッシュアップサービスを構築する技術が発達している。しかしながら、Webサービスの利用に関する統計より最大85.6%のWebサービスがマッシュアップサービスに利用されていない。これは、利用可能である膨大なWebサービスの中から真に適切なWebサービスを発見し、組み合わせる事が困難であることを示している。このことから、マッシュアップサービスを構築する際には、膨大な数のWebサービスから効率的に見つけ出す必要がある。</p>
               </div>
             </div>
 
@@ -181,7 +181,7 @@ function App() {
               <div class="main-works-item-text">
                 <h3>サービス依存関係に基づくソフトクラスタリング</h3>
                 <div class="square2"></div>
-                <p>既存研究ではk-means法を用いたクラスタリング手法を採用していた. しかし, k-means法は各ノード(点)に1つのカテゴリしか割り当てることができず, 複数のカテゴリに属す可能性があるノードも1つにまとめられてしまう. このことから,各ノードが確立に基づき, 複数のカテゴリに割り当て可能であるソフトクラスタリングを採用し, 検証する.</p>
+                <p>既存研究では、各Webサービスの仕様書に基づいてWebサービスを特定していた。しかし、この方法では、仕様書がWebサービス提供者の規則に依存するため、同じ機能を持つWebサービスを見つけられない問題がある。また、複数の機能を持つWebサービスを一つの機能として分類する問題もある。そこで、規則に依存しない複合サービスの関係を示すグラフネットワークを作成する。これにより、頻繁に利用されるWebサービスや，頻繁に組み合わせて使われるWebサービスのペアを表現することが可能となる。その後，構築したグラフの特徴を取得することで，Webサービスを複数の機能に分類を行う．</p>
               </div>
             </div>
             <h2><i class="fa-solid fa-book"></i>学会発表</h2>
@@ -228,9 +228,9 @@ function App() {
       <footer id="contact" class="footer">
         <div class="footer-container container">
           <div class="footer-from">
-            <p>お問い合わせフォームは近日公開します。ご迷惑をおかけします</p>
-            <form action="action.php" method="post" name="contact-form">
-              <div class="footer-form-input">
+            {/* <p>お問い合わせフォームは近日公開します。ご迷惑をおかけします</p> */}
+            {/* <form action="action.php" method="post" name="contact-form">
+              {/* <div class="footer-form-input">
                 <i class="far fa-user"></i>
                 <input type="text" placeholder="氏名" />
               </div>
@@ -244,7 +244,7 @@ function App() {
                 <textarea placeholder="お問い合わせ内容"></textarea>
               </div>
               <input type="submit" value="Submit" class="button-primary" />
-            </form>
+            </form> */} 
           </div>
 
           <div class="footer-info">
