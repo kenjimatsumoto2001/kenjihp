@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/kenjihp/static/css/main.1e347604.css",
-    "main.js": "/kenjihp/static/js/main.f6e9d00a.js",
+    "main.js": "/kenjihp/static/js/main.d7da088b.js",
     "static/js/787.89065e07.chunk.js": "/kenjihp/static/js/787.89065e07.chunk.js",
     "static/media/research2.jpg": "/kenjihp/static/media/research2.99bcd18fd0e5b30427ec.jpg",
-    "static/media/research1.jpg": "/kenjihp/static/media/research1.5a381d27184ff0d66326.jpg",
+    "static/media/research1.jpg": "/kenjihp/static/media/research1.137220306e37563ee4ea.jpg",
     "static/media/face.jpg": "/kenjihp/static/media/face.da2f00ab31a7281e03a2.jpg",
     "static/media/home.jpg": "/kenjihp/static/media/home.099475a5f50082c4d89c.jpg",
     "static/media/ritumeilogo .png": "/kenjihp/static/media/ritumeilogo .cea0b1449d6ab77d95ba.png",
     "index.html": "/kenjihp/index.html",
     "main.1e347604.css.map": "/kenjihp/static/css/main.1e347604.css.map",
-    "main.f6e9d00a.js.map": "/kenjihp/static/js/main.f6e9d00a.js.map",
+    "main.d7da088b.js.map": "/kenjihp/static/js/main.d7da088b.js.map",
     "787.89065e07.chunk.js.map": "/kenjihp/static/js/787.89065e07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e347604.css",
-    "static/js/main.f6e9d00a.js"
+    "static/js/main.d7da088b.js"
   ]
 }
