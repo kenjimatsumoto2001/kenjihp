@@ -61,7 +61,8 @@ figure {
 
 /*親要素以上に広がらないように*/
 .workA,
-.workB {
+.workB,
+.workC {
     max-width: 100%;
 }
 
@@ -179,6 +180,12 @@ Main - Works
 }
 
 .main-works-item-img.secondary img {
+    box-shadow:
+        1px 1px 10px rgba(49, 41, 72, 0.5),
+        10px 10px 0 #28303d;;
+}
+
+.main-works-item-img.tertiary img {
     box-shadow:
         1px 1px 10px rgba(49, 41, 72, 0.5),
         10px 10px 0 #28303d;;

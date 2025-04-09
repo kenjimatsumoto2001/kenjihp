@@ -11,6 +11,7 @@ import face from './img/face.jpg'
 import ritsumeikan from './img/ritumeilogo .png'
 import research1 from './img/research1.jpg'
 import research2 from './img/research2.jpg'
+import research3 from './img/research3.png'
 //swiper
 import React, { useRef, useState } from "react";
 // Import Swiper React components
@@ -47,7 +48,7 @@ function App() {
           <div class="main-hero-highlight">
             <h1><strong>KENJI MATSUMOTO</strong></h1>
 
-            <a>立命館大学 情報理工学部 社会知能研究室 M1</a>
+            <a>立命館大学 情報理工学研究科 社会知能研究室 M2</a>
 
             <figure class="main-hero-img">
               <img src={face} alt="profile" class="main-hero-img-photo" />
@@ -101,8 +102,8 @@ function App() {
                   </div>
 
                   <div class="main-about-description-p">
-                    <p>香港出身。 香港高校から日本に来て勉強しています。 現在は立命館大学院 情報理工学研究科で複数のWebサービスを使用して新たなサービスを開発する「マッシュアップサービス」について研究しています。</p>
-                    <p>また, 今年は基本情報技術者とTOEICを勉強したいと思っているので応援お願いします!</p>
+                    <p>香港出身です。学業では、複数のWebサービス(API)を組み合わせて新しいサービスを作る「複合サービス」について研究しています。<br />学業以外では、チームでのWebアプリケーション開発や、香港で日本人家族向けの子ども支援活動等を行ってきました。</p>
+                    <p>さらに、今年は基本情報技術者試験の勉強とTOEICのスコアアップを目指して頑張りたいと思っています!</p>
                   </div>
                 </div>
               </div>
@@ -170,7 +171,7 @@ function App() {
               <div class="main-works-item-text">
                 <h3>背景</h3>
                 <div class="square1"></div>
-                <p>現在、多種多様なWebサービスが数多く存在しており、それらを組み合わせてマッシュアップサービスを構築する技術が発達している。しかしながら、Webサービスの利用に関する統計より最大85.6%のWebサービスがマッシュアップサービスに利用されていない。これは、利用可能である膨大なWebサービスの中から真に適切なWebサービスを発見し、組み合わせる事が困難であることを示している。このことから、マッシュアップサービスを構築する際には、膨大な数のWebサービスから効率的に見つけ出す必要がある。</p>
+                <p>現在、多種多様なAPIが数多く存在しており、それらを組み合わせて複合サービスを構築する技術が発達している。しかしながら、APIの利用に関する統計より最大85.6%のAPIが複合サービスに利用されていない。これは、利用可能である膨大なWebサービスの中から真に適切なAPIを発見し、組み合わせる事が困難であることを示している。このことから、複合サービスを構築する際には、膨大な数のAPIから効率的に見つけ出す必要がある。</p>
               </div>
             </div>
 
@@ -184,29 +185,45 @@ function App() {
                 <p>既存研究では、各Webサービスの仕様書に基づいてWebサービスを特定していた。しかし、この方法では、仕様書がWebサービス提供者の規則に依存するため、同じ機能を持つWebサービスを見つけられない問題がある。また、複数の機能を持つWebサービスを一つの機能として分類する問題もある。そこで、規則に依存しない複合サービスの関係を示すグラフネットワークを作成する。これにより、頻繁に利用されるWebサービスや，頻繁に組み合わせて使われるWebサービスのペアを表現することが可能となる。その後，構築したグラフの特徴を取得することで，Webサービスを複数の機能に分類を行う．</p>
               </div>
             </div>
+
+            <div class="main-works-item">
+              <figure class="main-works-item-img tertiary">
+                <img src={research3} alt="Work C" class="workC" />
+              </figure>{/*ここに写真 */}
+              <div class="main-works-item-text">
+                <h3>大規模言語モデルを用いたサービス開発におけるAPI推薦</h3>
+                <div class="square2"></div>
+                <p>本研究では、LLMを活用したプロンプト手法を用いることで、ユーザーが自然言語で記述した要件文から適切なAPIの組み合わせを自動的に発見する推奨システムを実装した。さらに、提案するプロンプト手法の有効性を検証するため、複数のLLMを用いた比較実験を行っている。</p>
+              </div>
+            </div>
+
             <h2><i class="fa-solid fa-book"></i>学会発表</h2>
+            <h4>・松本賢司，村上陽平．<a href="https://ken.ieice.org/ken/program/index.php?tgs_regid=87c93a59c88a2e5900d1ebfe3ca9f1a44cfa63d2d0a48e775e66aa53aeb8d294&tgid=IEICE-SC">大規模言語モデルを用いたサービス合成のためのAPI推薦</a>，電子情報通信学会 サービスコンピューティング研究会，2025.若手奨励賞受賞</h4>
+            <h4> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→<a href="https://sig-sc.org/winner.html">若手奨励賞受賞</a></h4>
+            <h4>・松本賢司，村上陽平．<a href="https://www.ipsj.or.jp/event/taikai/87/index.html">大規模言語モデルを用いたサービス開発におけるAPI推薦</a>，情報処理学会 第87回 全国大会，2025.</h4>
             <h4>・松本賢司，村上陽平．<a href="https://pub.confit.atlas.jp/ja/event/general2024/presentation/D-23-03">サービス連携関係に基づくソフトクラスタリング</a>，電気情報通信学会 総合大会，2024.</h4>
           </div>
+
         </section>
 
 
         <section id="skill" class="main-about-addition">
           <h2><i class="fa-solid fa-bars"></i>Skill</h2>
           <div class="container">
-              <div class="main-about-addition-skills">
+            <div class="main-about-addition-skills">
 
               <div class="intersts-list1">
-                    <div class="intersts-list">
-                      <div class="box"><p>Python</p></div>
-                      <div class="box"><p>MYSQL</p></div>
-                    </div>
+                <div class="intersts-list">
+                  <div class="box"><p>Python</p></div>
+                  <div class="box"><p>MYSQL</p></div>
+                </div>
 
-                    <div class="intersts-list">
-                      <div class="box"><p>HTML</p></div>
-                      <div class="box"><p>CSS</p></div>
-                    </div>
-                  </div>
+                <div class="intersts-list">
+                  <div class="box"><p>HTML</p></div>
+                  <div class="box"><p>CSS</p></div>
+                </div>
               </div>
+            </div>
           </div>
 
         </section>
@@ -244,7 +261,7 @@ function App() {
                 <textarea placeholder="お問い合わせ内容"></textarea>
               </div>
               <input type="submit" value="Submit" class="button-primary" />
-            </form> */} 
+            </form> */}
           </div>
 
           <div class="footer-info">
@@ -294,7 +311,7 @@ function App() {
 
       <script src="swiper.min.js"></script>
 
-      
+
     </body >
   );
 }
